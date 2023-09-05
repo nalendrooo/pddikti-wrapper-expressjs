@@ -1,6 +1,6 @@
 # API PDDIKTI WRAPPER EXPRESS JS
 
-Ini adalah api wrapper dari website PDDIKTI.
+Ini adalah api wrapper dari website PDDIKTI. Push pertama pada tanggal 5 September 2023, semoga bermanfaat.
 
 ## Instalasi
 
