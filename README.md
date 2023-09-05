@@ -2,7 +2,7 @@
 
 Ini adalah api wrapper dari website PDDIKTI.
 
-## Installation
+## Instalasi
 
 Gunakan [npm](https://www.npmjs.com/) untuk menginstall dependensi.
 
@@ -10,11 +10,34 @@ Gunakan [npm](https://www.npmjs.com/) untuk menginstall dependensi.
 npm install
 ```
 
+## Jalankan
+
+Menggunakan [nodemon](https://nodemon.io/) untuk menjalankan aplikasi di project lokal.
+
+```bash
+npm run dev
+```
+
 ## Penggunaan
 
-```javascript
-import foobar
+Untuk mencari universitas menggunakan keyword:
 
+```javascript
+/api/universitas/cari
+
+```
+
+body request:
+
+```json
+{
+	"universitas": "Universitas Bina Sarana Informatika"
+}
+```
+
+##
+
+```javascript
 /api/universitas/cari
 /api/universitas/detail
 /api/universitas/prodi
@@ -35,4 +58,4 @@ Terimakasih
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+no license
