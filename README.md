@@ -1,6 +1,6 @@
-# Foobar
+# API PDDIKTI WRAPPER EXPRESS JS
 
-Foobar is a Python library for dealing with word pluralization.
+Ini adalah api wrapper dari website PDDIKTI.
 
 ## Installation
 
