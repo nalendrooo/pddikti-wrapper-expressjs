@@ -10,7 +10,7 @@ Gunakan [npm](https://www.npmjs.com/) untuk menginstall dependensi.
 npm install
 ```
 
-## Jalankan
+## Menjalankan
 
 Menggunakan [nodemon](https://nodemon.io/) untuk menjalankan aplikasi di project lokal.
 
@@ -37,14 +37,70 @@ body request:
 
 ##
 
+Untuk mendapatkan detail universitas menggunakan id:
+
 ```javascript
-/api/universitas/cari
 /api/universitas/detail
+
+```
+
+body request:
+
+```json
+{
+	"id": "Awokawokawokawokawokawokawok"
+}
+```
+
+##
+
+Untuk mendapatkan daftar prodi pada universitas:
+
+```javascript
 /api/universitas/prodi
 
+```
+
+body request:
+
+```json
+{
+	"id": "Awokawokawokawokawokawokawok"
+}
+```
+
+##
+
+Untuk mencari prodi menggunakan keyword:
+
+```javascript
 /api/universitas/cari/prodi
+
+```
+
+body request:
+
+```json
+{
+	"prodi": "Sistem Informasi"
+}
+```
+
+##
+
+Untuk mendapatkan detail dari prodi menggunakan idProdi:
+
+```javascript
 /api/universitas/prodi/detail
 
+```
+
+body request:
+
+```json
+{
+	"prodi": "Sistem Informasi"
+}
 ```
 
 ## Kontribusi
