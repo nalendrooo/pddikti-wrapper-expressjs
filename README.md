@@ -99,7 +99,7 @@ body request:
 
 ```json
 {
-	"prodi": "Sistem Informasi"
+	"id": "Awokawokawokawokawokawokawok"
 }
 ```
 
