@@ -20,6 +20,8 @@ npm run dev
 
 ## Penggunaan
 
+Semua endpoint menggunakan method GET.
+
 Untuk mencari universitas menggunakan keyword:
 
 ```javascript
