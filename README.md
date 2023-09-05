@@ -4,7 +4,7 @@ Ini adalah api wrapper dari website PDDIKTI.
 
 ## Instalasi
 
-Gunakan [npm](https://www.npmjs.com/) untuk menginstall dependensi.
+Gunakan [npm](https://www.npmjs.com/) untuk menginstall semua dependensi.
 
 ```bash
 npm install
@@ -27,7 +27,7 @@ Untuk mencari universitas menggunakan keyword:
 
 ```
 
-body request:
+body:
 
 ```json
 {
@@ -44,7 +44,7 @@ Untuk mendapatkan detail universitas menggunakan id:
 
 ```
 
-body request:
+body:
 
 ```json
 {
@@ -61,7 +61,7 @@ Untuk mendapatkan daftar prodi pada universitas:
 
 ```
 
-body request:
+body:
 
 ```json
 {
@@ -78,7 +78,7 @@ Untuk mencari prodi menggunakan keyword:
 
 ```
 
-body request:
+body:
 
 ```json
 {
@@ -95,11 +95,11 @@ Untuk mendapatkan detail dari prodi menggunakan idProdi:
 
 ```
 
-body request:
+body:
 
 ```json
 {
-	"id": "Awokawokawokawokawokawokawok"
+	"idProdi": "Awokawokawokawokawokawokawok"
 }
 ```
 
